@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <menu type="context"></menu>
+    <title>FORM</title>
+    <link rel="shortcut icon" href="C:\Users\hk565\Downloads\favicon_io\android-chrome-192x192.png" type="image/x-icon">
+    <!-- NOW THIS FACBICON WILL DISPLAY ON THE WEBSITE WHICH YOU MADE IT INC THE CHANCE OF FOR CHOOSING YOUR SITE 
+    SO ALWAYS USE THIS YOU CAN THE FABICON BY USING THE ONILNE SITE AVAILABLE , AND FOR THE SYNTAX OF THIS YOU JUST NEED TO WRITE LINK FABICON ONLY WIHTOUT USING < -->
+    <style>
+        H1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        form {
+            text-align: justify;
+        }
+
+        p {
+            font-size: xx-large;
+        }
+
+        label {
+            font-size: x-large;
+        }
+
+        img {
+            height: 500px;
+            width: 500px;
+        }
+
+        .ll {
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://previews.123rf.com/images/milatoo/milatoo1603/milatoo160300049/55289189-illustration-of-a-female-blonde-disc-jockey-work-in-radio-station.jpg"
+        align="right">
+    <form>
+        <h1><u>REGISTRATION FORM FOR COLLEGE</h1></u>
+        <p> ENTER YOUR NAME : <input type="text" placeholder="ENTER NAME" size="30px"><br></p>
+        <p>WHICH BRANCH ARE YOU FROM</p>
+        <label for="batch">
+            <input type="radio" name="BATCH" value="BATCH 1" id="BTECH 1id">BATCH-1 CSE
+        </label>
+        <label for="batch">
+            <input type="radio" name="BATCH" value="BATCH 2" id="BTECH 2id">BATCH-2 CSE
+        </label>
+        <label for="batch">
+            <input type="radio" name="BATCH" value="IT" id="ITid"> INFORMATION TECHNOLOGY
+        </label><br>
+        <p> ENTER YOUR DOB : <input type="date"><br></p>
+        <P>ENTER YOUR GENDER
+            <label for="gender">
+                <input type="checkbox" name="gender" id="genderm" value="gnm"> MALE
+            </label>
+            <label for="gender">
+                <input type="checkbox" name="gender" id="genderF" value="gnF"> FEMALE
+            </label>
+        </P>
+        <p>ENTER YOUR BOARD :
+            <select name="board" size="3" multiple>
+                <option value="cbse">CBSE</option>
+                <option value="hbse">HBSE</option>
+                <option value="icse">ICSE</option>
+                <option value="OPEN">OPEN</option>
+            </select>
+        </p>
+        <P>WHY YOU WANNA JOIN US</P>
+        <textarea name="comment" rows="20" cols="50">WRITE IN YOUR OWN WORDS</textarea>
+        <div>
+            <P><input type="submit" name="submit" value="CLICK HERE TO SUBMIT THE FORM" class="ll"></P>
+            <!--AS YOU CAN SEE THAT HOW CLASS WORKS I GIVE CLASS ll TO BOTH OF THE SUBMIT AND RESET 
+            AND IN BY USING CSS STYLE I IN THE FONT SIZE OF BOTH TOGETHER -->
+            <input type="reset" name="CLEAR" value="CLEAR THE FORM" class="ll">
+        </div>
+    </form>
+
+</body>
+
+</html>
